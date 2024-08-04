@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketNews</title>
+    <link rel="stylesheet" href="public/styles/output.css" />
+    <link rel="shortcut icon" href="public/assets/icon.png" type="image/x-icon">
+  </head>
+  <body class="bg-zinc-900">
+    <div class="lg:flex">
+      <div id="leftside" class="lg:w-1/2 flex flex-col mx-5 lg:ml-10 mt-10 gap-12">
+        <header>
+          <img src="public/assets/logo.svg" alt="logo" />
+        </header>
+
+        <div class="flex flex-col justify-center gap-3">
+          <h6 class="text-green-500 text-xl font-bold">
+            atualize ideias e informações em 5 minutos.
+          </h6>
+          <p class="text-white font-semibold">
+            tudo que você precisa saber para começar seu dia bem e informado
+          </p>
+          <p class="text-white font-light">
+            noticias sobre o universo Rocketseat, e tudo o que precisa para
+            começar o dia melhor. perfeito para se preparar para codar ☕
+          </p>
+        </div>
+
+        <form action="#" class="flex flex-col gap-4">
+          <label for="email" class="text-zinc-400 font-semibold"
+            >Insira seu e-mail:</label
+          >
+          <div class="flex lg:absolute lg:w-1/2">
+            <input
+              type="text"
+              class="flex-grow h-14 pl-3 border-l-4 border-green-500 focus:outline-none"
+              placeholder="oi@rocketseat.com"
+            />
+            <button
+              class="w-14 h-14 flex justify-center items-center bg-purple-600 text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-send"
+              >
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </div>
+        </form>
+
+        <div class="flex text-purple-600 font-bold font-spartan">
+          <p class="">deixe-me ler primeiro</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-right fill-purple-500"
+          >
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+      <div id="rightside" class="hidden lg:flex lg:h-screen">
+        <img
+          src="public/assets/read_news.jpg"
+          alt=""
+          class="lg:object-cover"
+        />
+      </div>
+    </div>
+  </body>
+</html>
